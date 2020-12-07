@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>성신여자대학교 together</title> 
+
+        <link rel="stylesheet" href="fullpage.min.css">
+        <script src="fullpage.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="https://www.sungshin.ac.kr/sites/main_kor/main.jsp"><img src="logo.jpg" alt="성신여자대학교로고"></a>
+            <nav>
+                <ul class = "menu">
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">메뉴</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <div id="full-page">
+                <div class="section main1">
+                    <img src="main1_logo.png" alt="성신여자대학교 together">
+                </div>
+    
+                <div class="section main2">
+                    <a href=""><img src="go_list.png" alt="모집글 보러가기"></a>
+                </div>
+
+                <div class="section main3">
+                </div>
+            </div>
+        </main>
+
+        <script>
+            new fullpage('#full-page',{
+                navigation: true, /* 메인화면 왼쪽 원형 바 */
+                navigationTooltips: ['Home', 'Write', 'tail'],
+                scrollingSpeed: 1500 /*스크롤 속도*/
+            });
+        </script>
+    </body>
+</html>
